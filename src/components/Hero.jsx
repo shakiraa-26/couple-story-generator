@@ -1,65 +1,83 @@
 export default function Hero() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-20">
+    
+    <section className="relative bg-[#F8F3ED] max-w-7xl mx-auto px-6 py-20">
+        <div className="absolute bottom-0 left-0 text-6xl opacity-20">
+        🌿
+        </div>
 
+        <div className="absolute right-5 top-40 text-4xl text-[#D97B93] opacity-50">
+        ♡
+        </div>
       <div className="grid md:grid-cols-2 gap-10 items-center">
 
         {/* Left Side */}
         <div>
 
-          <span className="bg-pink-100 text-pink-600 px-4 py-2 rounded-full text-sm">
-            Powered by AI ❤️
-          </span>
+            <h1 className="text-3xl md:text-6xl max-w-md font-bold leading-tight text-[#4E342E]">
 
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mt-6 leading-tight">
-            Create Beautiful
-            <span className="text-pink-600"> Love Stories </span>
-            With AI
-          </h1>
+            Every
 
-          <p className="text-lg text-gray-600 mt-6">
-            Turn your memories, photos and special moments
-            into interactive stories, quizzes and timelines.
-          </p>
+            <span className="text-[#D97B93]">
+                {" "}Love Story{" "}
+            </span>
 
-          <div className="flex gap-4 mt-8 flex-wrap">
-            <button className="bg-gradient-to-r from-pink-500 to-rose-500 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:scale-105 transition">
-            Create Story
-            </button>
+            Deserves To Be Remembered
 
-            <button className="border border-pink-600 text-pink-600 px-6 py-3 rounded-full">
-              Watch Demo
-            </button>
-          </div>
+            </h1>
+
+            <p className="mt-6 text-gray-600 text-lg leading-relaxed">
+            Transform your memories, photos and special moments
+            into beautiful AI-generated stories, quizzes and
+            digital scrapbooks.
+            </p>
+
+            
+            <div className="flex gap-3 mt-8 flex-wrap">
+
+                <button className="bg-[#8B5E3C] text-white px-5 py-3 rounded-full shadow-md text-sm font-medium">
+                    ✨ Create My Story
+                </button>
+
+                <button className="border border-[#8B5E3C] text-[#8B5E3C] px-5 py-3 rounded-full text-sm font-medium">
+                    ▶ Watch Demo
+                </button>
+
+            </div>
+            
 
         </div>
 
         {/* Right Side */}
         <div>
 
-          <div className="bg-white rounded-3xl shadow-xl p-6">
+        <div className="bg-[#FFFDFB] rounded-3xl shadow-lg p-5 mt-10 border border-[#F0E6DE]">
 
-            <h3 className="text-xl font-bold mb-4">
-              ❤️ Story Preview
+            <h3 className="font-bold text-[#7A5C4D] text-xl mb-4">
+                ❤️ Mukhtar & Shakira
             </h3>
 
             <div className="space-y-3">
 
-              <div className="bg-pink-50 p-4 rounded-xl">
-                First Meeting ☕
-              </div>
+                <div className="bg-[#F8F3ED] p-3 rounded-xl">
+                ☕ First Meeting
+                </div>
 
-              <div className="bg-pink-50 p-4 rounded-xl">
-                First Photo 📸
-              </div>
+                <div className="bg-[#F8F3ED] p-3 rounded-xl">
+                📸 First Photo
+                </div>
 
-              <div className="bg-pink-50 p-4 rounded-xl">
-                Favorite Memory ✨
-              </div>
+                <div className="bg-[#F8F3ED] p-3 rounded-xl">
+                ✨ Favorite Memory
+                </div>
 
             </div>
 
-          </div>
+            <div className="mt-4 bg-[#F8D7E0] text-[#7A5C4D] text-center py-2 rounded-full text-sm">
+                Loved by 1000+ Couples ❤️
+            </div>
+
+        </div>
 
         </div>
 
